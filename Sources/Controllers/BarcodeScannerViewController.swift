@@ -102,7 +102,7 @@ open class BarcodeScannerViewController: UIViewController {
     cameraViewController.delegate = self
     add(childViewController: cameraViewController)
 
-    view.bringSubview(toFront: messageView)
+    view.bringSubviewToFront(messageView)
   }
 
   open override func viewWillAppear(_ animated: Bool) {
